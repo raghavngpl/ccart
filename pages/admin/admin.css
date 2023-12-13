@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F6F9;
+    font-family: 'Roboto', sans-serif;
+    color: #2D4356;
+    padding: 0px 15px;
+}
+
+h1 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 34px;
+    padding: 19px;
+}
+
+h3,
+h2 {
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.tab {
+    overflow: hidden;
+    background-color: #F1F6F9;
+}
+
+.tab button {
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 9px 38px;
+    transition: 0.1s;
+    font-size: 17px;
+    background-color: #F1F6F9;
+    color: #2D4356;
+    opacity: 0.3;
+}
+
+.tab button:hover {
+    background-color: #2d435624;
+}
+
+.line {
+    position: absolute;
+    width: 97%;
+    border-bottom: 2px solid #2d43563d;
+    top: 118px;
+}
+
+.tab button.active {
+    color: #2D4356;
+    opacity: 1;
+    border-bottom: 5px solid #2D4356;
+}
+
+.tabContent {
+    padding: 6px 12px;
+}
+
+/* grid Css */
+
+.jsgrid {
+    color: #2D4356;
+    font-size: 14px;
+    margin-top: 20px;
+    height: 600px;
+}
+
+.jsgrid-alt-row  {
+    height: 50px;
+}
+.jsgrid-grid-header,
+.jsgrid-header-row {
+    font-size: 16px;
+    
+}
+
+.jsgrid-header-row>.jsgrid-header-cell {
+    background-color: #e0ebf2c4;
+}
+
+
+.jsgrid-row {
+    height: 50px;
+    background-color: azure;
+}

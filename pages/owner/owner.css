@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F6F9;
+    font-family: 'Roboto', sans-serif;
+    color: #2D4356;
+}
+
+h3,
+h2,p {
+    margin: 0;
+}
+
+.overview-sec h1 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 34px;
+    padding: 0;
+}
+
+.overview-sec p {
+font-size: 14px;
+}
+
+.total {
+width: 15%;
+} 
+
+.others {
+ display: flex;
+ width: 50%;
+ justify-content: center;
+ height: 100%;
+ flex-wrap: wrap;
+}
+
+h1 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 34px;
+    padding: 19px;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.overview-sec,
+.grid-sec {
+    width: 90%;
+    background-color: white;
+    margin: 20px 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    transition-property: transform;
+    text-align: center;
+}
+
+.overview-sec {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-sec {
+    min-height: 600px;
+}
+
+.show-card {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 5px;
+    width: 150px;
+    height: 46px;
+    background: whitesmoke;
+}
+
+.show-card h3 {
+    font-size: 14px;
+}
+.show-card p {
+    font-size: 12px;
+}
+
+.low {
+    border-left: 5px solid #ff000024;
+}
+
+.recent-buy {
+    border-left: 5px solid #0064ff24;
+}
+
+.recent-add {
+    border-left: 5px solid #00ff4124;
+}
+
+.last-billing {
+    border-left: 5px solid #5e00ff24;
+    width: 500px;
+    height: 70px;
+}
+
+.Billing {
+display: flex;
+width: 100%;
+justify-content: space-around;    
+text-align: left;
+}
+
+
+.jsgrid {
+    color: #2D4356;
+    font-size: 14px;
+    margin-top: 20px;
+    height: 600px;
+}
+
+.jsgrid-alt-row  {
+    height: 50px;
+}
+.jsgrid-grid-header,
+.jsgrid-header-row {
+    font-size: 16px;
+    
+}
+
+.jsgrid-header-row>.jsgrid-header-cell {
+    background-color: #e0ebf2c4;
+}
+
+
+.jsgrid-row {
+    height: 50px;
+    background-color: azure;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css" />
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css" />
+    <link rel="stylesheet" href="./admin.css">
+    <title>StockMate | Admin</title>
+</head>
+<body>
+    <div>
+        <h1>Welcome back, Admin</h1>
+        <div class="tab">
+            <div class="line"></div>
+            <button class="tabLinks active" onclick="openSection(event, 'Stores')">Stores</button>
+            <button class="tabLinks" onclick="openSection(event, 'Owners')">Owners</button>
+          </div>
+
+          <div id="Stores" class="tabContent">
+            <div id="storeGrid"></div>
+          </div>
+          
+          <div id="Owners" class="tabContent" style="display: none;">
+            <div id="ownerGrid"></div>
+
+          </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js"></script>
+    <script src="./admin.js"></script>
+</body>
+</html>

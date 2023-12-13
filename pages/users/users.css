@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F6F9;
+    font-family: 'Roboto', sans-serif;
+    color: #2D4356;
+}
+
+h3,h2 {
+    font-weight: 400;
+    margin: 0;
+}
+
+#user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.user-box {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    margin: 0 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    transition-property: transform;
+    text-align: center;
+    cursor: pointer;
+}
+
+.user-box:hover {
+    transform: scale(1.1);
+}
+
+.user-box img {
+    width: 60%;
+    margin: auto;
+}
